@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background-color: #800080; /* Pourpre */
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.gold-bar {
+    background-color: gold;
+    height: 10px;
+    animation: shimmer 2s infinite;
+}
+
+/* Animation de scintillement */
+@keyframes shimmer {
+    0%, 100% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(1.5);
+    }
+}
